@@ -116,7 +116,7 @@ function createAE(name, typeIndex) {
         json: {
             "m2m:ae": {
                 "rn": name,
-                "api": "Rapp.company.com",
+                "api": "Napp.company.com",
                 "rr": false
             }
         }
@@ -559,7 +559,7 @@ function createSubscription(name, typeIndex) {
             "m2m:sub": {
                 "rn": "sub",
                 "nu": [config.cse.name + "/" + name],
-                "nct": 2,
+                "nct": 1,
                 "enc": {
                     "net": [3]
                 }
